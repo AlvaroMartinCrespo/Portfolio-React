@@ -40,11 +40,7 @@ function Card({ num }) {
                 </div>
             </div>
             <div className="card__content">
-                <img
-                    className="img-languajes"
-                    src={imgLanguaje[num]}
-                    alt="img-languaje"
-                />
+                <img className="img-languajes" src={imgLanguaje[num]} alt="img-languaje" />
                 <span className="nameLanguajes">{nameLanguaje[num]}</span>
             </div>
         </div>
