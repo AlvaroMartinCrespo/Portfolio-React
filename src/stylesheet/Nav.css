@@ -1,0 +1,35 @@
+.mainContainer {
+    color: #f4f5f6;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 60px;
+    font-size: 1.4em;
+    /* border: 1px solid white; */
+}
+
+.containerList {
+    display: flex;
+    align-items: center;
+}
+
+.containerList ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.containerList ul li {
+    margin-right: 50px;
+}
+
+.containerName {
+    margin-left: 50px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.blue {
+    color: blue;
+}

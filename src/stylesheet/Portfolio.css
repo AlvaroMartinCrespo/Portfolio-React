@@ -1,0 +1,26 @@
+.mainContainerPortfolio {
+    background-color: #131218;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.imgPortfolio {
+    width: 400px;
+    height: auto;
+}
+
+.namePortfolio {
+    color: #f4f5f6;
+    font-size: 1.3em;
+}
+
+.imgPortfolio {
+    filter: brightness(1, 5);
+}
+
+.imgPortfolio:hover {
+    filter: brightness(0.7);
+}
