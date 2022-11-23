@@ -25,11 +25,19 @@
 
 .containerName {
     margin-left: 50px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     display: flex;
     align-items: center;
 }
 
-.blue {
+.blueSpan {
     color: blue;
+    padding: 4px;
+
+}
+
+.greenSpan {
+    color: chartreuse;
+    padding: 4px;
+
 }
