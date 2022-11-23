@@ -29,7 +29,7 @@ function Page() {
                     skills={skillsProp}
                 />
             </div>
-            <h1>Knowledge</h1>
+            <h1 id="knowledge">Knowledge</h1>
             <div className="containerSeparator">
                 <hr className="separator" />
             </div>
@@ -47,7 +47,9 @@ function Page() {
 
             <div className="portfolio">
                 <div className="containerSeparator darkBackground padding">
-                    <h1 className="darkBackground">Portfolio</h1>
+                    <h1 id="portfolio" className="darkBackground">
+                        Portfolio
+                    </h1>
                     <hr className="separator" />
                 </div>
 
@@ -59,7 +61,7 @@ function Page() {
             </div>
 
             <h1>Contact</h1>
-            <div className="containerSeparator">
+            <div id="contact" className="containerSeparator">
                 <hr className="separator" />
             </div>
 

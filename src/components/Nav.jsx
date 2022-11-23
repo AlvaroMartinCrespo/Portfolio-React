@@ -6,6 +6,12 @@ const code2 = ' />';
 const name = 'AMC';
 
 function Nav() {
+    let urlKnowledge = '#knowledge';
+    let elementKnowledge = <a href={urlKnowledge}>Knowledge</a>;
+    let urlPortfolio = '#portfolio';
+    let elementPortfolio = <a href={urlPortfolio}>Portfolio</a>;
+    let urlContact = '#contact';
+    let elementContact = <a href={urlContact}>Contact</a>;
     return (
         <div className="mainContainer">
             <div className="containerName">
@@ -16,9 +22,9 @@ function Nav() {
             <div className="containerList">
                 <nav>
                     <ul>
-                        <li>Knowledge</li>
-                        <li>Portfolio</li>
-                        <li>Contact</li>
+                        <li>{elementKnowledge}</li>
+                        <li>{elementPortfolio}</li>
+                        <li>{elementContact}</li>
                     </ul>
                 </nav>
             </div>
