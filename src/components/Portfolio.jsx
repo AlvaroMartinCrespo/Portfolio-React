@@ -8,9 +8,20 @@ function Portfolio({ num }) {
         2: 'Calculator',
         3: 'Web',
     };
+    const portfoliosURL = (num) => {
+        if (num === '1') {
+            return 'http://click-react.vercel.app/';
+        } else if (num === '2') {
+            return null;
+        } else if (num === '3') {
+            return null;
+        } else {
+            return null;
+        }
+    };
     return (
         <div className="mainContainerPortfolio">
-            <a href="http://">
+            <a href={portfoliosURL(num)}>
                 <img
                     className="imgPortfolio"
                     src={imgPortfolio}
