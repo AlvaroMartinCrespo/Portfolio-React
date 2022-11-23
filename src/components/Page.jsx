@@ -5,6 +5,7 @@ import '../stylesheet/Page.css';
 import Card from './Card.jsx';
 import Portfolio from './Portfolio.jsx';
 import Contact from './Contact.jsx';
+import video from '../video/video1.mp4';
 
 function Page() {
     const descriptionProp = 'Web application developer and designer';
@@ -21,6 +22,9 @@ function Page() {
             </div>
 
             <div className="containerPresentation">
+                {/* <video id="background-video" autoplay loop muted>
+                    <source src={video} type="video/mp4" />
+                </video> */}
                 <Presentation
                     name={name}
                     job={job}
