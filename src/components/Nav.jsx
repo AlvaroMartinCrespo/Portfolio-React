@@ -3,7 +3,7 @@ import '../stylesheet/Nav.css';
 import imgLogo from '../img/utilities/code2.png';
 
 const code1 = '<';
-const code2 = '>';
+const code2 = ' />';
 const name = 'AMC';
 
 function Nav() {
