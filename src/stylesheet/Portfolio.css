@@ -10,11 +10,13 @@
 .imgPortfolio {
     width: 400px;
     height: auto;
+    /* background-color: #131218; */
 }
 
 .namePortfolio {
     color: #f4f5f6;
     font-size: 1.3em;
+    background-color: #131218;
 }
 
 .imgPortfolio {

@@ -33,11 +33,19 @@
 .blueSpan {
     color: blue;
     padding: 4px;
-
 }
 
 .greenSpan {
     color: chartreuse;
     padding: 4px;
+}
 
+a {
+    text-decoration: none;  
+    color: white;
+    font-size: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
