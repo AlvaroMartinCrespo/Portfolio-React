@@ -8,7 +8,11 @@ import Contact from './Contact.jsx';
 
 function Page() {
     const descriptionProp = 'Web application developer and designer';
-    const skillsProp = 'Passion for programming. Teamwork. Creative. Willing to face challenges.';
+    const skillsProp =
+        'Passion for programming. Teamwork. Creative. Willing to face challenges.';
+    const name = 'Alvaro Martin Crespo';
+    const job = 'Front-End Developer';
+    const img = 1;
 
     return (
         <div>
@@ -18,10 +22,9 @@ function Page() {
 
             <div className="containerPresentation">
                 <Presentation
-                    name="Alvaro Martin Crespo"
-                    job="Front-End Developer"
-                    imagen="1"
-                    country="España"
+                    name={name}
+                    job={job}
+                    imagen={img}
                     description={descriptionProp}
                     skills={skillsProp}
                 />

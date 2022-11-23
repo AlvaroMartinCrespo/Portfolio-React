@@ -10,10 +10,6 @@ function Presentation({ name, description, skills }) {
                 <p className="nombre-testimonio">
                     <strong>{name}</strong>
                 </p>
-                {/* 
-                <p className="cargo-testimonio">
-                    <strong>{job}</strong>
-                </p> */}
                 <p className="texto-testimonio">"{description}"</p>
                 <p className="texto-testimonio">"{skills}"</p>
             </div>
