@@ -32,6 +32,12 @@ function Page() {
             <h1 id="knowledge">Knowledge</h1>
             <div className="containerSeparator">
                 <hr className="separator" />
+                <span class="cita">
+                    <i>
+                        "Eager to become a professional with these languages
+                        ​​and learn more languages."
+                    </i>
+                </span>
             </div>
 
             <div className="mainContainerCards">
@@ -51,6 +57,11 @@ function Page() {
                         Portfolio
                     </h1>
                     <hr className="separator" />
+                    <span class="cita">
+                        <i className="darkBackground">
+                            "Some of my projects in React, HTML and CSS"
+                        </i>
+                    </span>
                 </div>
 
                 <div className="containerPortfolio ">
