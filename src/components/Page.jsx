@@ -26,7 +26,7 @@ function Page() {
                     skills={skillsProp}
                 />
             </div>
-            <h1>Skills Languajes</h1>
+            <h1>Knowledge</h1>
             <div className="containerSeparator">
                 <hr className="separator" />
             </div>
