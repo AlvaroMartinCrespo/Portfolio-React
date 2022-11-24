@@ -7,11 +7,23 @@ const name = 'AMC';
 
 function Nav() {
     let urlKnowledge = '#knowledge';
-    let elementKnowledge = <a href={urlKnowledge}>Knowledge</a>;
+    let elementKnowledge = (
+        <a className="btnA" href={urlKnowledge}>
+            Knowledge
+        </a>
+    );
     let urlPortfolio = '#portfolio';
-    let elementPortfolio = <a href={urlPortfolio}>Portfolio</a>;
+    let elementPortfolio = (
+        <a className="btnA" href={urlPortfolio}>
+            Portfolio
+        </a>
+    );
     let urlContact = '#contact';
-    let elementContact = <a href={urlContact}>Contact</a>;
+    let elementContact = (
+        <a className="btnA" href={urlContact}>
+            Contact
+        </a>
+    );
     return (
         <div className="mainContainer">
             <div className="containerName">

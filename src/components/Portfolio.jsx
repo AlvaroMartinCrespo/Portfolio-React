@@ -5,8 +5,8 @@ import imgPortfolio from '../img/portfolio/contador.png';
 function Portfolio({ num }) {
     const portfoliosName = {
         1: 'Contador',
-        2: 'Calculator',
-        3: 'Web',
+        2: 'Calculator (Not Working)',
+        3: 'Web (Not Working)',
     };
     const portfoliosURL = (num) => {
         if (num === '1') {

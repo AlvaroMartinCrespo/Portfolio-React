@@ -5,9 +5,6 @@
     align-content: center;
     height: 60px;
     font-size: 1.4em;
-    position: absolute;
-    width: 100%;
-
     /* border: 1px solid white; */
 }
 
@@ -43,12 +40,32 @@
     padding: 4px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-size: bold;
+ul li {
+    list-style: none;
+    padding: 20px 30px;
 }
 
-a:hover {
-    text-decoration: underline;
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1, 3em;
+    color: #131212;
+    position: relative;
+    color: white;
+}
+
+ul li a:before {
+    content: '';
+    width: 0;
+    height: 5px;
+    background: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+
+ul li:hover a::before {
+    width: 50%;
+    transform: translateX(100%);
 }
