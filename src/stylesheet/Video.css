@@ -10,8 +10,7 @@
 
 video {
     width: 100%;
-    height: 650px;
+    height: 750px;
     object-fit: cover;
     position: inherit;
-
 }
