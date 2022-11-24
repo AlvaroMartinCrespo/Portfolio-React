@@ -7,3 +7,9 @@
     background-color: #17161c;
     box-sizing: border-box;
 }
+
+@media (max-width: 414px) {
+    body {
+        display: none;
+    }
+}
