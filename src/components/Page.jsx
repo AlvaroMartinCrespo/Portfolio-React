@@ -6,8 +6,10 @@ import Card from './Card.jsx';
 import Portfolio from './Portfolio.jsx';
 import Contact from './Contact.jsx';
 import Player from './Video.jsx';
+// import Arrow from './BotonUp.jsx';
 
 function Page() {
+    const urlUp = '#';
     const descriptionProp = 'Web application developer and designer';
     const skillsProp =
         'Passion for programming. Teamwork. Creative. Willing to face challenges.';
@@ -17,6 +19,10 @@ function Page() {
 
     return (
         <div>
+            <a href={urlUp} className="btn-flotante">
+                UP
+            </a>
+
             <div className="containerNav">
                 <Nav />
             </div>
