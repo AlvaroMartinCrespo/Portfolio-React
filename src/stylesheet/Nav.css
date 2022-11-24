@@ -5,6 +5,9 @@
     align-content: center;
     height: 60px;
     font-size: 1.4em;
+    position: absolute;
+    width: 100%;
+
     /* border: 1px solid white; */
 }
 
@@ -41,7 +44,7 @@
 }
 
 a {
-    text-decoration: none;  
+    text-decoration: none;
     color: white;
     font-size: bold;
 }

@@ -6,6 +6,7 @@
     justify-content: center;
     box-shadow: 3px 3px 15px 6px black;
     color: #f4f5f6;
+    position: absolute;
 }
 
 .imagen-testimonio {

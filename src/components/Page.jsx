@@ -5,7 +5,7 @@ import '../stylesheet/Page.css';
 import Card from './Card.jsx';
 import Portfolio from './Portfolio.jsx';
 import Contact from './Contact.jsx';
-import video from '../video/video1.mp4';
+import Player from './Video.jsx';
 
 function Page() {
     const descriptionProp = 'Web application developer and designer';
@@ -22,9 +22,9 @@ function Page() {
             </div>
 
             <div className="containerPresentation">
-                {/* <video id="background-video" autoplay loop muted>
-                    <source src={video} type="video/mp4" />
-                </video> */}
+                <div className="containerVideo">
+                    <Player />
+                </div>
                 <Presentation
                     name={name}
                     job={job}
@@ -33,7 +33,9 @@ function Page() {
                     skills={skillsProp}
                 />
             </div>
+
             <h1 id="knowledge">Knowledge</h1>
+
             <div className="containerSeparator">
                 <hr className="separator" />
                 <span class="cita">
