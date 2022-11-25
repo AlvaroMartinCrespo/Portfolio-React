@@ -6,7 +6,7 @@ import Card from './Card.jsx';
 import Portfolio from './Portfolio.jsx';
 import Contact from './Contact.jsx';
 import Player from './Video.jsx';
-// import Analitics from './Analitics.jsx';
+import { inject } from '@vercel/analytics';
 
 function Page() {
     const urlUp = '#';
@@ -16,6 +16,7 @@ function Page() {
     const name = 'Alvaro Martin Crespo';
     const job = 'Front-End Developer';
     const img = 1;
+    inject();
 
     return (
         <div>
