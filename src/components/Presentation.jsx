@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheet/Presentation.css';
-import imgPortfolio from '../img/imgState/img2.jpg';
+import imgPortfolio from '../img/imgState/img3.jpg';
 
 function Presentation({ name, description, skills }) {
     return (
