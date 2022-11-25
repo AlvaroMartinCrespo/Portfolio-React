@@ -51,10 +51,11 @@ ul li {
 }
 
 ul li a {
+    background-color: #17161c;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1, 3em;
-    color: #131212;
+    /* font-size: 1, 3em; */
+    /* color: #131212; */
     position: relative;
     color: white;
 }
