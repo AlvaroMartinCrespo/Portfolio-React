@@ -3,6 +3,7 @@ import '../stylesheet/Portfolio.css';
 import imgPortfolio from '../img/portfolio/contador.png';
 
 function Portfolio({ num }) {
+    
     const portfoliosName = {
         1: 'Contador',
         2: 'Calculator (Not Working)',

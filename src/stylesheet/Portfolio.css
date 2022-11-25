@@ -9,9 +9,16 @@
     margin-bottom: 40px;
 }
 
+a{
+    background-color: #131218;
+}
+
 .imgPortfolio {
+    box-shadow: 5px 5px 3px 1px #000000;
+    border-radius: 10px;
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
     /* background-color: #131218; */
 }
 
