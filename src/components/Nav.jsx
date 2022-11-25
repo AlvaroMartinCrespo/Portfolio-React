@@ -27,9 +27,11 @@ function Nav() {
     return (
         <div className="mainContainer">
             <div className="containerName">
-                <span className="blueSpan">{code1}</span>
-                <span>{name}</span>
-                <span className="greenSpan">{code2}</span>
+                <a href="#">
+                    <span className="blueSpan">{code1}</span>
+                    <span>{name}</span>
+                    <span className="greenSpan">{code2}</span>
+                </a>
             </div>
             <div className="containerList">
                 <nav>

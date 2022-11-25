@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .mainContainer {
     color: #f4f5f6;
     display: flex;
@@ -69,5 +74,3 @@ ul li:hover a::before {
     width: 50%;
     transform: translateX(100%);
 }
-
-
