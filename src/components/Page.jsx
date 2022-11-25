@@ -6,7 +6,7 @@ import Card from './Card.jsx';
 import Portfolio from './Portfolio.jsx';
 import Contact from './Contact.jsx';
 import Player from './Video.jsx';
-import Analitics from './Analitics.jsx';
+// import Analitics from './Analitics.jsx';
 
 function Page() {
     const urlUp = '#';
@@ -19,7 +19,6 @@ function Page() {
 
     return (
         <div>
-            {/* <Analitics /> */}
             <a href={urlUp} className="btn-flotante">
                 UP
             </a>
