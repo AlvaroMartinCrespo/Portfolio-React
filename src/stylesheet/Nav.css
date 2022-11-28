@@ -1,77 +1,72 @@
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .mainContainer {
-    color: #f4f5f6;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    height: 60px;
-    font-size: 1.4em;
-    /* border: 1px solid white; */
-}
-
-.containerList {
-    display: flex;
-    align-items: center;
+  color: #f4f5f6;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 60px;
+  font-size: 1.4em;
+  /* border: 1px solid white; */
 }
 
 .containerList ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .containerList ul li {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 .containerName {
-    margin-left: 50px;
-    font-size: 1.5em;
-    display: flex;
-    align-items: center;
+  margin-left: 50px;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
 }
 
 .blueSpan {
-    color: blue;
-    padding: 4px;
+  color: blue;
+  padding: 4px;
 }
 
 .greenSpan {
-    color: chartreuse;
-    padding: 4px;
+  color: chartreuse;
+  padding: 4px;
 }
 
 ul li {
-    list-style: none;
-    padding: 20px 30px;
+  list-style: none;
+  padding: 20px 30px;
 }
 
 ul li a {
-    background-color: #17161c;
-    text-decoration: none;
-    text-transform: uppercase;
-    /* font-size: 1, 3em; */
-    /* color: #131212; */
-    position: relative;
-    color: white;
+  background-color: #17161c;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* font-size: 1, 3em; */
+  /* color: #131212; */
+  position: relative;
+  color: white;
 }
 
 ul li a:before {
-    content: '';
-    width: 0;
-    height: 5px;
-    background: white;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    transition: 0.5s;
+  content: '';
+  width: 0;
+  height: 5px;
+  background: white;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: 0.5s;
 }
 
 ul li:hover a::before {
-    width: 50%;
-    transform: translateX(100%);
+  width: 50%;
+  transform: translateX(100%);
 }
