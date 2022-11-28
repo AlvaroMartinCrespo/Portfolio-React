@@ -8,6 +8,16 @@
   scroll-behavior: smooth;
 }
 
+*::-webkit-scrollbar {
+  width: 9px;
+}
+*::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
 @media (max-width: 414px) {
   body {
     display: none;
