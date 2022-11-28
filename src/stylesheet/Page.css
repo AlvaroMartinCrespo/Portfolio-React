@@ -1,126 +1,127 @@
 .mainContainerStart {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .containerNav {
-    width: 100%;
-    height: 60px;
+  width: 100%;
+  height: 60px;
 }
 
 .containerVideo {
-    width: 100%;
-    height: 750px;
+  width: 100%;
+  height: 750px;
 }
 
 .containerPresentation {
-    height: 750px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 50px;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .mainContainerCards {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 50px;
-    /* position: absolute; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
+  /* position: absolute; */
 }
 
 .cita {
-    margin-top: 30px;
-    color: white;
+  margin-top: 30px;
+  color: white;
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #f4f5f6;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #f4f5f6;
 }
 
 .separator {
-    width: 800px;
-    border: 1px solid white;
+  width: 800px;
+  border: 1px solid white;
 }
 
 .containerSeparator {
-    margin-bottom: 50px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* position: absolute; */
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* position: absolute; */
 }
 
 .containerCards {
-    width: 1000px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 40px 40px;
-    grid-template-areas:
-        '. . .'
-        '. . .';
-    /* position: absolute; */
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px 40px;
+  grid-template-areas:
+    '. . .'
+    '. . .';
+  /* position: absolute; */
 }
 
 .containerPortfolio {
-    /* height: 600px; */
-    background-color: #131218;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 40px 30px;
-    grid-template-areas: '. . .';
-    margin-bottom: 50px;
-    justify-items: center;
-    /* position: absolute; */
+  /* height: 600px; */
+  background-color: #131218;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 40px 30px;
+  grid-template-areas: '. . .';
+  margin-bottom: 50px;
+  justify-items: center;
+  width: 100%;
+  /* position: absolute; */
 }
 
 .contact {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .portfolio {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .darkBackground {
-    background-color: #131218;
+  background-color: #131218;
 }
 
 .portfolio {
-    background-color: #131218;
+  background-color: #131218;
 }
 
 .padding {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .btn-flotante {
-    font-size: 16px; /* Cambiar el tamaño de la tipografia */
-    text-transform: uppercase; /* Texto en mayusculas */
-    font-weight: bold; /* Fuente en negrita o bold */
-    color: black; /* Color del texto */
-    border-radius: 5px; /* Borde del boton */
-    letter-spacing: 2px; /* Espacio entre letras */
-    background-color: white; /* Color de fondo */
-    padding: 18px 30px; /* Relleno del boton */
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    transition: all 300ms ease 0ms;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    z-index: 99;
-    text-decoration: none;
+  font-size: 16px; /* Cambiar el tamaño de la tipografia */
+  text-transform: uppercase; /* Texto en mayusculas */
+  font-weight: bold; /* Fuente en negrita o bold */
+  color: black; /* Color del texto */
+  border-radius: 5px; /* Borde del boton */
+  letter-spacing: 2px; /* Espacio entre letras */
+  background-color: white; /* Color de fondo */
+  padding: 18px 30px; /* Relleno del boton */
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  transition: all 300ms ease 0ms;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  text-decoration: none;
 }
 .btn-flotante:hover {
-    background-color: #2c2fa5; /* Color de fondo al pasar el cursor */
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-    transform: translateY(-7px);
+  background-color: #2c2fa5; /* Color de fondo al pasar el cursor */
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-7px);
 }
