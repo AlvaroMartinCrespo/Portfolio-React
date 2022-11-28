@@ -8,6 +8,7 @@
   scroll-behavior: smooth;
 }
 
+/* Scroll bar */
 *::-webkit-scrollbar {
   width: 9px;
 }
