@@ -13,6 +13,11 @@ a {
   /* border: 1px solid white; */
 }
 
+.containerList {
+  display: flex;
+  align-items: center;
+}
+
 .containerList ul {
   list-style: none;
   display: flex;
