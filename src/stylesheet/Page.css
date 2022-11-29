@@ -139,8 +139,14 @@ h1 {
     justify-items: center;
   }
   .containerSeparator {
-    width: 100%;
-    margin: 10px;
+    width: 100vw;
+    /* margin: 10px;
+    padding: 10px; */
+  }
+
+  .containerSeparator span {
+    text-align: center;
+    margin: 5px;
   }
   .containerCards {
     display: grid;
