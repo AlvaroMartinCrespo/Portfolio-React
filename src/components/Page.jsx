@@ -77,7 +77,7 @@ function Page() {
                     </span>
                 </div>
 
-                <div className="containerPortfolio ">
+                <div className="containerPortfolio">
                     <Portfolio num="1" />
                     <Portfolio num="2" />
                     <Portfolio num="3" />

@@ -70,3 +70,16 @@ ul li:hover a::before {
   width: 50%;
   transform: translateX(100%);
 }
+
+@media (max-width: 414px) {
+  .mainContainer {
+    width: 100vw;
+    display: flex;
+    font-size: 8px;
+    justify-content: center;
+  }
+  .containerList li {
+    padding: 12px;
+    margin-top: 12px;
+  }
+}

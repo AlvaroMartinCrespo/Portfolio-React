@@ -13,8 +13,8 @@ code {
     monospace;
 }
 
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
   body {
     display: none;
   }
-}
+} */

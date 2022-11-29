@@ -19,8 +19,3 @@
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
 }
-@media (max-width: 414px) {
-  body {
-    display: none;
-  }
-}
