@@ -127,6 +127,9 @@ h1 {
 }
 
 @media (max-width: 414px) {
+  .containerPresentation {
+    width: 100vw;
+  }
   .containerPortfolio {
     display: grid;
     grid-template-columns: 1fr;
