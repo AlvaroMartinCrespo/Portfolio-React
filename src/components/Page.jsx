@@ -77,12 +77,12 @@ function Page() {
           </span>
         </div>
 
-                <div className="containerPortfolio">
-                    <Portfolio num="1" />
-                    <Portfolio num="2" />
-                    <Portfolio num="3" />
-                </div>
-            </div>
+        <div className="containerPortfolio">
+          <Portfolio num="1" />
+          <Portfolio num="2" />
+          <Portfolio num="3" />
+        </div>
+      </div>
 
       <h1>Contact</h1>
       <div id="contact" className="containerSeparator">
