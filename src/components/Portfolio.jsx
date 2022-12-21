@@ -17,7 +17,7 @@ function Portfolio({ num }) {
   const portfoliosName = {
     1: 'Contador',
     2: 'Calculator',
-    3: 'Web (Not Working)',
+    3: 'Task (Not Working)',
   };
   const portfoliosURL = (num) => {
     if (num === '1') {
@@ -25,7 +25,7 @@ function Portfolio({ num }) {
     } else if (num === '2') {
       return 'https://calculator-react-4z2y8vsxq-alvaromartincrespo.vercel.app/';
     } else if (num === '3') {
-      return null;
+      return 'https://app-tareas-react-peach.vercel.app/';
     } else {
       return null;
     }
