@@ -57,7 +57,7 @@ function Page() {
         <div className="containerCards">
           <Card num="1" />
           <Card num="2" />
-          <Card num="3" />
+          <Card num="7" />
           <Card num="4" />
           <Card num="5" />
           <Card num="6" />
