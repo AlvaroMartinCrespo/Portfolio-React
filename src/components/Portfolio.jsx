@@ -17,7 +17,7 @@ function Portfolio({ num }) {
   const portfoliosName = {
     1: 'Contador',
     2: 'Calculator',
-    3: 'Task (Not Working)',
+    3: 'Task',
   };
   const portfoliosURL = (num) => {
     if (num === '1') {
