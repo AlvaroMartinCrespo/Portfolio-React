@@ -2,6 +2,7 @@ import React from 'react';
 import '../stylesheet/Portfolio.css';
 import imgContador from '../img/portfolio/contador.png';
 import imgCalculator from '../img/portfolio/calculator.png';
+import imgTask from '../img/portfolio/task.png';
 
 function Portfolio({ num }) {
   const selectImg = (num) => {
@@ -10,7 +11,7 @@ function Portfolio({ num }) {
     } else if (num === '2') {
       return imgCalculator;
     } else if (num === '3') {
-      return imgCalculator;
+      return imgTask;
     }
   };
 
